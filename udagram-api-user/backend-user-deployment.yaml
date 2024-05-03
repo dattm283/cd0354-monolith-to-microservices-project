@@ -16,6 +16,6 @@ spec:
     spec: 
       containers: 
       - name: udagram-api-user
-        image:  dattm283/udagram-api-user:v3
+        image:  dattm283/udagram-api-user:v6
         ports: 
         - containerPort: 8080

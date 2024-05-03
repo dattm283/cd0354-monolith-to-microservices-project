@@ -6,7 +6,7 @@ To help review your infrastructure, please include the following screenshots in 
 ![](./img/Screenshot-of-DockerHub-shows-the-images.png)
 ![](./img/DockerHub%20showing%20containers%20that%20you%20have%20pushed.png)
 * GitHub repository’s settings showing your Travis webhook (can be found in Settings - Webhook)
-
+![](./img/settings%20showing%20your%20Travis%20webhook.png)
 * Travis CI showing a successful build and deploy job
 ![](./img/Travis-CI-showing-a-successful-build%20job.png)
 
@@ -30,5 +30,6 @@ kubectl describe hpa
 ```bash
 kubectl logs {pod_name}
 ```
-![](./img/kubectl-logs-frontend.png)
-![](./img/kubectl-logs-reverseproxy.png)
+
+![](./img/kubectl-logs-backend-feed.png)
+![](./img/kubectl-logs-backend-user.png)

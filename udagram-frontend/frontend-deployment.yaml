@@ -18,4 +18,4 @@ spec:
       - name: udagram-frontend
         image:  dattm283/udagram-frontend:v6
         ports: 
-        - containerPort: 80
+        - containerPort: 8100
