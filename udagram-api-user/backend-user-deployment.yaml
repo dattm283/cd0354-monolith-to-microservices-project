@@ -17,5 +17,9 @@ spec:
       containers: 
       - name: udagram-api-user
         image:  dattm283/udagram-api-user:v6
+        resources:
+          requests:
+            cpu: 250m
+            memory: 1G
         ports: 
         - containerPort: 8080
